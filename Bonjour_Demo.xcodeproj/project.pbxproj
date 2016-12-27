@@ -17,6 +17,8 @@
 		35667B631DF8FF3C00C491B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35667B611DF8FF3C00C491B7 /* Main.storyboard */; };
 		35667B651DF8FF3C00C491B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35667B641DF8FF3C00C491B7 /* Assets.xcassets */; };
 		35667B681DF8FF3C00C491B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35667B661DF8FF3C00C491B7 /* LaunchScreen.storyboard */; };
+		35E701791E120F67004EB67B /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E701781E120F67004EB67B /* GCDAsyncSocket.m */; };
+		35E7017C1E1236BF004EB67B /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E7017B1E1236BF004EB67B /* GCDAsyncSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		35667B641DF8FF3C00C491B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35667B671DF8FF3C00C491B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35667B691DF8FF3C00C491B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E701771E120F67004EB67B /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		35E701781E120F67004EB67B /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		35E7017A1E1236BF004EB67B /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		35E7017B1E1236BF004EB67B /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,8 @@
 			children = (
 				35667B411DF8FC4200C491B7 /* AppDelegate.h */,
 				35667B421DF8FC4200C491B7 /* AppDelegate.m */,
+				35E7017A1E1236BF004EB67B /* GCDAsyncSocket.h */,
+				35E7017B1E1236BF004EB67B /* GCDAsyncSocket.m */,
 				35667B471DF8FC4200C491B7 /* Assets.xcassets */,
 				35667B491DF8FC4200C491B7 /* MainMenu.xib */,
 				35667B4C1DF8FC4200C491B7 /* Info.plist */,
@@ -103,6 +111,8 @@
 				35667B5C1DF8FF3C00C491B7 /* AppDelegate.m */,
 				35667B5E1DF8FF3C00C491B7 /* ViewController.h */,
 				35667B5F1DF8FF3C00C491B7 /* ViewController.m */,
+				35E701771E120F67004EB67B /* GCDAsyncSocket.h */,
+				35E701781E120F67004EB67B /* GCDAsyncSocket.m */,
 				35667B611DF8FF3C00C491B7 /* Main.storyboard */,
 				35667B641DF8FF3C00C491B7 /* Assets.xcassets */,
 				35667B661DF8FF3C00C491B7 /* LaunchScreen.storyboard */,
@@ -223,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E7017C1E1236BF004EB67B /* GCDAsyncSocket.m in Sources */,
 				35667B461DF8FC4200C491B7 /* main.m in Sources */,
 				35667B431DF8FC4200C491B7 /* AppDelegate.m in Sources */,
 			);
@@ -232,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E701791E120F67004EB67B /* GCDAsyncSocket.m in Sources */,
 				35667B601DF8FF3C00C491B7 /* ViewController.m in Sources */,
 				35667B5D1DF8FF3C00C491B7 /* AppDelegate.m in Sources */,
 				35667B5A1DF8FF3C00C491B7 /* main.m in Sources */,

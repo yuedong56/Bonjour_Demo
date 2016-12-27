@@ -700,7 +700,7 @@
                         </textFieldCell>
                     </textField>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RUM-iL-s8k">
-                        <rect key="frame" x="183" y="27" width="143" height="25"/>
+                        <rect key="frame" x="62" y="26" width="143" height="25"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="roundTextured" title="发送txt（&lt;200byte）" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="YMc-D7-k7W">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -708,6 +708,17 @@
                         </buttonCell>
                         <connections>
                             <action selector="sendTxt:" target="Voe-Tx-rLC" id="P2b-9A-AmJ"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fpJ-kS-jI5">
+                        <rect key="frame" x="278" y="22" width="160" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="发送socket消息" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="GTT-y2-G25">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" size="13" name=".PingFangSC-Regular"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="sendSocketMsg:" target="Voe-Tx-rLC" id="T8s-ow-y9M"/>
                         </connections>
                     </button>
                 </subviews>
